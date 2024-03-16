@@ -1,0 +1,49 @@
+/* schemeCardStyles.css */
+
+.scheme-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.scheme-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover shadow effect */
+}
+
+.image-container {
+  height: 200px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.data-container {
+  padding: 15px;
+  text-align: justify; /* Justify the text */
+}
+
+.data-container h3 {
+  margin-top: 0;
+}
+
+.data-container p {
+  margin: 10px 0;
+}
+
+.data-container a {
+  color: blue;
+  text-decoration: none;
+}
+
+.data-container a:hover {
+  text-decoration: underline;
+}
